@@ -17,6 +17,9 @@
 		AA781BB221B9BDD100EE4555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA781BB021B9BDD100EE4555 /* LaunchScreen.storyboard */; };
 		AA781BBD21B9BDD100EE4555 /* BeetleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA781BBC21B9BDD100EE4555 /* BeetleTests.swift */; };
 		AA781BC821B9BDD100EE4555 /* BeetleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA781BC721B9BDD100EE4555 /* BeetleUITests.swift */; };
+		AA781BD621B9BF7600EE4555 /* player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = AA781BD521B9BF7600EE4555 /* player.atlas */; };
+		AA781BD821B9BF9500EE4555 /* CoinSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AA781BD721B9BF9500EE4555 /* CoinSound.mp3 */; };
+		AA781BDA21B9C08500EE4555 /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA781BD921B9C08500EE4555 /* GameElements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		AA781BC321B9BDD100EE4555 /* BeetleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeetleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA781BC721B9BDD100EE4555 /* BeetleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeetleUITests.swift; sourceTree = "<group>"; };
 		AA781BC921B9BDD100EE4555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA781BD521B9BF7600EE4555 /* player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = player.atlas; path = ../../../Downloads/ProjectFiles/player.atlas; sourceTree = "<group>"; };
+		AA781BD721B9BF9500EE4555 /* CoinSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CoinSound.mp3; sourceTree = "<group>"; };
+		AA781BD921B9C08500EE4555 /* GameElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +109,14 @@
 		AA781BA021B9BDD000EE4555 /* Beetle */ = {
 			isa = PBXGroup;
 			children = (
+				AA781BD521B9BF7600EE4555 /* player.atlas */,
 				AA781BA121B9BDD000EE4555 /* AppDelegate.swift */,
 				AA781BA321B9BDD000EE4555 /* GameScene.sks */,
+				AA781BD721B9BF9500EE4555 /* CoinSound.mp3 */,
 				AA781BA521B9BDD000EE4555 /* Actions.sks */,
 				AA781BA721B9BDD000EE4555 /* GameScene.swift */,
 				AA781BA921B9BDD000EE4555 /* GameViewController.swift */,
+				AA781BD921B9C08500EE4555 /* GameElements.swift */,
 				AA781BAB21B9BDD000EE4555 /* Main.storyboard */,
 				AA781BAE21B9BDD100EE4555 /* Assets.xcassets */,
 				AA781BB021B9BDD100EE4555 /* LaunchScreen.storyboard */,
@@ -238,6 +247,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA781BD821B9BF9500EE4555 /* CoinSound.mp3 in Resources */,
+				AA781BD621B9BF7600EE4555 /* player.atlas in Resources */,
 				AA781BAD21B9BDD000EE4555 /* Main.storyboard in Resources */,
 				AA781BA421B9BDD000EE4555 /* GameScene.sks in Resources */,
 				AA781BAF21B9BDD100EE4555 /* Assets.xcassets in Resources */,
@@ -267,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA781BDA21B9C08500EE4555 /* GameElements.swift in Sources */,
 				AA781BA821B9BDD000EE4555 /* GameScene.swift in Sources */,
 				AA781BAA21B9BDD000EE4555 /* GameViewController.swift in Sources */,
 				AA781BA221B9BDD000EE4555 /* AppDelegate.swift in Sources */,
